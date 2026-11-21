@@ -1,0 +1,48 @@
+/*
+  Descrição: JavaScript aplicado a Formulários.
+  Nome do arquivo: style.css
+  Nome do exercício: Aula 15 - JavaScript aplicado a Formulários
+  Nome do aluno: Felipe Gabriel de Oliveira
+  E-mail do aluno: felipe.oliveira139@aluno.cps.sp.gov.br
+  Turma: Código da Turma: WEBI-ISWO28-A
+*/
+
+body {
+  font-family: sans-serif;
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  box-sizing: border-box;
+}
+
+#mensagem {
+  min-height: 20px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.ok { color: green; }
+.erro { color: red; }
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

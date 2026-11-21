@@ -1,1 +1,33 @@
+<!--
+  Descrição: JavaScript aplicado a Formulários.
+  Nome do arquivo: Index.html
+  Nome do exercício: Aula 15 - JavaScript aplicado a Formulários
+  Nome do aluno: Felipe Gabriel de Oliveira
+  E-mail do aluno: felipe.oliveira139@aluno.cps.sp.gov.br
+  Turma: Código da Turma: WEBI-ISWO28-A
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <form id="form">
+    <label for="senha">Senha</label>
+    <input type="password" id="senha" required>
 
+    <label for="confirma">Confirme sua Senha</label>
+    <input type="password" id="confirma" required>
+
+    <div id="mensagem"></div>
+
+    <button type="submit" id="cadastrar" disabled>Cadastrar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
