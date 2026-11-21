@@ -1,1 +1,43 @@
+<!--
+  Descrição: JavaScript aplicado a Formulários.
+  Nome do arquivo: Index.html
+  Nome do exercício: Aula 15 - JavaScript aplicado a Formulários
+  Nome do aluno: Felipe Gabriel de Oliveira
+  E-mail do aluno: felipe.oliveira139@aluno.cps.sp.gov.br
+  Turma: Código da Turma: WEBI-ISWO28-A
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
 
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+
+<div class="container">
+
+    <label for="comentario">Comentário:</label>
+
+    <textarea
+        id="comentario"
+        maxlength="140"
+        placeholder="Digite seu comentário...">
+    </textarea>
+
+    <div class="contador">
+        Caracteres restantes:
+        <span id="contador">140</span>
+    </div>
+
+    <button id="enviar" disabled>Enviar</button>
+
+</div>
+
+<script src="form.js" defer></script>
+
+</body>
+</html>
